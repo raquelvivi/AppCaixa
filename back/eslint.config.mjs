@@ -32,4 +32,18 @@ export default tseslint.config(
       "prettier/prettier": ["error", { endOfLine: "auto" }],
     },
   },
+  
 );
+"prettier/prettier": [
+  "error",
+  {
+    endOfLine: "auto",
+    tabWidth: 2,
+    useTabs: false,
+    singleQuote: true,
+    semi: true,
+    trailingComma: "all",
+    printWidth: 120
+  }
+]
+

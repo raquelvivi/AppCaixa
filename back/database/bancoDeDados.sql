@@ -91,7 +91,6 @@ create table despesas (
     fkAquisicao integer,
 	FOREIGN (fkAquisicao) REFERENCES aquisicao(id)
 
-
 );
 
 
