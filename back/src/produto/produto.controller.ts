@@ -23,6 +23,8 @@ export class ProdController {
     return this.ProdService.getProd(codigo);
   }
 
+
+  
   ///////////////////////////////////////// FALTA FAZER
   //Pesquisa de produtos com o nome
   /////////////////////////////////////////
